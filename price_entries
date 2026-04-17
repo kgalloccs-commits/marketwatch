@@ -1,0 +1,13 @@
+{
+  "id": "auto-gen",
+  "product_id": "ref",
+  "store_id": "ref",
+  "user_id": "ref",
+  "price": 55.50,
+  "unit": "kg",
+  "category": "Rice",
+  "status": "pending | verified | outlier",
+  "image_url": "string",
+  "votes": { "up": 5, "down": 0 },
+  "created_at": "timestamp"
+}
