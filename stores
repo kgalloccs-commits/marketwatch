@@ -1,0 +1,7 @@
+{
+  "id": "auto-gen",
+  "name": "SM City Cebu",
+  "type": "supermarket | sari-sari | wet-market",
+  "location": { "geopoint": [lat, lng], "address": "string" },
+  "last_updated": "timestamp"
+}
