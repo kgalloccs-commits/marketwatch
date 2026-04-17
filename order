@@ -1,0 +1,18 @@
+marketwatch/
+├── src/
+│   ├── components/       # Reusable UI (Button, Input, Card)
+│   ├── features/         # Logic-specific modules
+│   │   ├── auth/         # Login/Signup logic
+│   │   ├── map/          # Google Maps & Clustering logic
+│   │   ├── prices/       # Submission & Validation logic
+│   │   └── dashboard/    # Charts & Trends
+│   ├── hooks/            # Custom hooks (useLocation, usePrices)
+│   ├── services/         # Firebase config & Firestore helpers
+│   ├── utils/            # K-Means & Math helpers
+│   └── App.js
+├── functions/            # Firebase Cloud Functions (Backend)
+│   ├── index.js          # Entry point
+│   ├── clustering.js     # K-Means logic
+│   └── validation.js     # Anomaly detection logic
+├── tailwind.config.js
+└── package.json
