@@ -1,0 +1,8 @@
+{
+  "uid": "string",
+  "email": "string",
+  "role": "consumer | vendor | leader",
+  "credibility_score": 75, // 0-100 scale
+  "total_submissions": 12,
+  "reputation_points": 150
+}
